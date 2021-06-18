@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(60, 148, 151);
+    background-image: url('./images/bg-pattern-top.svg');
+    background-image: url('./images/bg-pattern-bottom.svg')
+}
+.container{
+    margin: 5rem 1.3rem;
+    position: relative;
+}
+.top{
+    height: 9rem;
+    width: 100%;
+    background-image: url('./images/bg-pattern-card.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bottom{
+    background:white;
+}
